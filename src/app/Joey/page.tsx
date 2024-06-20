@@ -6,7 +6,7 @@ import ProgressBar from '../components/ProgressBar'
 export default function Joey() {
      
     // put kids unique model link HERE 
-    const URL = "https://teachablemachine.withgoogle.com/models/lfO32C_LR/";
+    const URL = "https://teachablemachine.withgoogle.com/models/X4Mk61z18/";
 
     
     const webcamRef = useRef<tmImage.Webcam | null>(null);
