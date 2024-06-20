@@ -15,6 +15,8 @@ const NavBar = () => {
     { label: "Evan", href: "/Evan" },
     { label: "Nikan", href: "/Nikan" },
     { label: "Ethan", href: "/Ethan" },
+    { label: "Roblox", href: "/Roblox" },
+
 
 
   ];
