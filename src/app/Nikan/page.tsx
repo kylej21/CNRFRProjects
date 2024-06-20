@@ -6,7 +6,7 @@ import ProgressBar from '../components/ProgressBar'
 export default function Nikan() {
     
     // put kids unique model link HERE 
-    const URL = "https://teachablemachine.withgoogle.com/models/lfO32C_LR/";
+    const URL = "https://teachablemachine.withgoogle.com/models/4T9U2vd5m0/";
 
     
     const webcamRef = useRef<tmImage.Webcam | null>(null);

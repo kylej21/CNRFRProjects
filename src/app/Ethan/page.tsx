@@ -6,7 +6,7 @@ import ProgressBar from '../components/ProgressBar'
 export default function Ethan() {
  
     // put kids unique model link HERE 
-    const URL = "https://teachablemachine.withgoogle.com/models/lfO32C_LR/";
+    const URL = "https://teachablemachine.withgoogle.com/models/-2wxE5frr/";
 
     const webcamRef = useRef<tmImage.Webcam | null>(null);
     let model: tmImage.CustomMobileNet | null = null;
