@@ -31,7 +31,7 @@ export default function Kirk() {
 
                 // Setup webcam
                 const flip = true; // whether to flip the webcam
-                webcamRef.current = new tmImage.Webcam(600, 600, flip); // width, height, flip
+                webcamRef.current = new tmImage.Webcam(500, 500, flip); // width, height, flip
                 await webcamRef.current.setup(); // request access to the webcam
                 webcamRef.current.play(); // Start playing the webcam stream
 
