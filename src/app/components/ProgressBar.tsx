@@ -2,7 +2,7 @@ import React from "react";
 import { usePathname } from "next/navigation";
 //@ts-expect-error
 const ProgressBar = ({ progressData }) => {
-    const colors = ['bg-blue-500', 'bg-green-500', 'bg-yellow-500','bg-red-500','bg-purple-500','bg-pink-500']; // Example colors array
+    const colors = ['bg-blue-500', 'bg-green-500', 'bg-yellow-500','bg-red-500','bg-purple-500','bg-pink-500']; // colors array
 
     return (
         <div className="justify-center items-center flex-col space-y-4 w-1/2">

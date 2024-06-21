@@ -7,13 +7,13 @@ export default function Roblox() {
     const currentPath = usePathname();
     const links = [
         { label: "Mr. Kyle", href: "https://www.roblox.com/games/10470130773/Color-Switcher-IMPOSSIBLE-100-PERCENT-FAIL" },
-        { label: "Michael", href: "/" },
-        { label: "Isaac", href: "/" },
-        { label: "Sullivan", href: "/" },
-        { label: "Clovis", href: "/" },
-        { label: "Jayce", href: "/" },
-        { label: "Shay", href: "/" },
-        { label: "Cooper", href: "/" },
+        { label: "Michael", href: "/https://www.roblox.com/games/18147164613/Find-Huggy" },
+        { label: "Isaac", href: "/https://www.roblox.com/games/18147478845/Car-City" },
+        { label: "Sullivan", href: "/https://www.roblox.com/games/18147154266/Fortnite" },
+        { label: "Clovis", href: "/https://www.roblox.com/games/18147138237/Scary-city" },
+        { label: "Jayce", href: "/https://www.roblox.com/games/18147151703/Lasers" },
+        { label: "Shay", href: "/https://www.roblox.com/games/18147147528/2-Obby-2-Bosses" },
+        { label: "Cooper", href: "/https://www.roblox.com/games/18147147212/Scary-City" },
     ];
 
     return (
