@@ -13,20 +13,17 @@ const NavBar = () => {
     { label: "AI", href: "/AI" },
     { label: "Roblox", href: "/Roblox" },
     { label: "Minecraft", href: "/Minecraft" },
-
-
-
   ];
 
   return (
-    <div className="flex py-4 px-5 h-1/12 w-full justify-between bg-black">
+    <div className="flex py-4 px-5 h-1/12 w-full justify-between bg-teal-500">
       <div className="flex items-center justify-center w-full">
         <ul className="flex space-x-4 md:space-x-8 text-lg md:text-2xl text-white">
           {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`${link.href === currentPath ? "text-zinc-400" : "text-slate-200"} hover:text-zinc-400 transition-colors`}
+              className={`${link.href === currentPath ? "text-black" : "text-slate-200"} hover:text-black transition-colors`}
             >
               {link.label}
             </Link>
