@@ -1,19 +1,23 @@
-'use client'
-import React from 'react';
-import { usePathname } from "next/navigation";
+"use client";
+import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation";
+import { useRouter } from "next/navigation";
 
-export default function Minecraft() {
-    const currentPath = usePathname();
-    const links = [
-        { label: "June 17 - June 21 8:30-11:30", href: "https://padlet.com/codeninjasrfr/folsom-minecraft-modding-masters-6-21-24-c1s75ev17mns0z24" },
-    ];
-
-    return (
-        <main className="flex flex-col items-center justify-start w-full min-h-screen bg-gray-200 text-stone-700 text-7xl">
+export default function AI() {
+  const links = [
+    { label: "Evan", href: "/Evan" },
+    { label: "Joey", href: "/Joey" },
+    { label: "Nikan", href: "/Nikan" },
+    { label: "Ethan", href: "/Ethan" },
+    { label: "Kirk", href: "/Kirk" },
+  ];
+  return (
+    <main className="flex flex-col items-center justify-start w-full min-h-screen bg-gray-200 text-stone-700 text-7xl">
             <div className="pt-4 w-full border-stone-700 border-3 rounded-xl pb-4 text-center">
                 <p className="pb-12 text-5xl">
-                    Click the link to go to the mods your child developed on Mcreator
+                    Clicking the link to take you to your child's computer vision model
                 </p>
                 <div className="flex flex-col space-y-4 items-center w-full"> {/* Remove 'items-center' and adjust width 'w-full' */}
                     {links.map((link) => (
@@ -29,5 +33,5 @@ export default function Minecraft() {
                 <div className="flex h-1/2"></div>
             </div>
         </main>
-    );
+  );
 }

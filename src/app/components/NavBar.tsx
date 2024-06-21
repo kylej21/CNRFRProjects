@@ -10,11 +10,7 @@ const NavBar = () => {
   // the href must match the folder name that the page.tsx exists in
   const links = [
     { label: "Home", href: "/" },
-    { label: "Kirk", href: "/Kirk" },
-    { label: "Joey", href: "/Joey" },
-    { label: "Evan", href: "/Evan" },
-    { label: "Nikan", href: "/Nikan" },
-    { label: "Ethan", href: "/Ethan" },
+    { label: "AI", href: "/AI" },
     { label: "Roblox", href: "/Roblox" },
     { label: "Minecraft", href: "/Minecraft" },
 

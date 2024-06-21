@@ -20,7 +20,7 @@ export default function Roblox() {
         <main className="flex flex-col items-center justify-center w-full min-h-screen bg-gray-200 text-stone-700 text-7xl">
             <div className="pt-4 w-full border-stone-700 border-3 rounded-xl pb-4 text-center">
                 <p className="pb-12 text-5xl">
-                    Clicking these links will take you to the game your child developed on Roblox
+                    Click the link to the game your child developed on Roblox
                 </p>
                 <div className="flex flex-col space-y-4 items-center w-screen">
                     
