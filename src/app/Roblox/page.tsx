@@ -10,10 +10,10 @@ export default function Roblox() {
         { label: "Michael", href: "https://www.roblox.com/games/18147164613/Find-Huggy" },
         { label: "Isaac", href: "https://www.roblox.com/games/18147478845/Car-City" },
         { label: "Sullivan", href: "https://www.roblox.com/games/18147154266/Fortnite" },
-        { label: "Clovis", href: "https://www.roblox.com/games/18147148212/Scary-City" },
+        { label: "Clovis", href: "https://www.roblox.com/games/18147138237/Scary-city" },
         { label: "Jayce", href: "https://www.roblox.com/games/18147151703/Lasers" },
         { label: "Shay", href: "https://www.roblox.com/games/18147147528/2-Obby-2-Bosses" },
-        { label: "Cooper", href: "https://www.roblox.com/games/18147147212/Scary-City" },
+        { label: "Cooper", href: "https://www.roblox.com/games/18147148212/Scary-City" },
     ];
 
     return (
