@@ -17,7 +17,7 @@ export default function AI() {
     <main className="flex flex-col items-center justify-start w-full min-h-screen bg-gray-200 text-stone-700 text-7xl">
             <div className="pt-4 w-full border-stone-700 border-3 rounded-xl pb-4 text-center">
                 <p className="pb-12 text-5xl">
-                    Clicking the link to take you to your child's computer vision model
+                    Clicking the link to take you to your childs computer vision model
                 </p>
                 <div className="flex flex-col space-y-4 items-center w-full"> {/* Remove 'items-center' and adjust width 'w-full' */}
                     {links.map((link) => (
